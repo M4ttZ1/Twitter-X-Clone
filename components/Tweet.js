@@ -65,7 +65,13 @@ export default function Tweet({ data, id }) {
 
   return (
     <div 
-    onClick={() => router.push("/" + id)}
+    onClick={() => {
+      if(!user.username){
+        dispatch(openLoginModal())
+        return
+      }
+      router.push("/" + id)
+    }}
     className="border-b border-gray-700 cursor-pointer">
       <TweetHeader
         username={data?.username}
