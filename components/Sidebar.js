@@ -33,9 +33,9 @@ export default function Sidebar() {
 
   return (
     <div className="h-full hidden sm:flex flex-col fixed xl:ml-24">
-      <nav className="h-full relative xl:space-y-1.5">
-        <div className="flex justify-center xl:justify-start items-center py-3 xl:p-3">
-          <Image src={"/X_Logo.jpg"} width={50} height={50} />
+      <nav className="h-full relative xl:space-y-1.5 xl:p-3">
+        <div className="flex justify-center xl:justify-start items-center py-3 xl:p-1">
+          <Image src={"/X_Logo.jpg"} width={50} height={40} />
         </div>
         <SidebarLink Icon={HomeIcon} text={"Home"} />
         <SidebarLink Icon={HashtagIcon} text={"Explore"} />
