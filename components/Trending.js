@@ -75,7 +75,7 @@ export default function Trending() {
           <div className="flex space-x-3 p-3">
             <img
               className="w-11 h-11 object-cover rounded-full"
-              src="/assets/Kylie.png"
+              src="/assets/kylie.png"
             />
             <div>
               <div className="flex space-x-1">
