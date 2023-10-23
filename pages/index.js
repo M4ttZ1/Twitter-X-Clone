@@ -1,7 +1,4 @@
-import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
 import Sidebar from "@/components/Sidebar";
 import Postfeed from "@/components/Postfeed";
 import Trending from "@/components/Trending";
